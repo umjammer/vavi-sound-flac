@@ -39,7 +39,7 @@ public class FlacEncoding extends AudioFormat.Encoding {
      *
      * @param name Name of the Flac encoding.
      */
-    public FlacEncoding(String name) {
+    private FlacEncoding(String name) {
         super(name);
     }
 }
