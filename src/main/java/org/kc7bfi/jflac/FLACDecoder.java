@@ -580,7 +580,7 @@ logger.log(Level.TRACE, String.format("Jump backward samples %d for %d to %d%n",
                     long max_bytes_to_frame = ((target_sample - this_frame_sample + min_blocksize - 1) / min_blocksize)
                             * max_framesize;
                     long delta = this_frame_sample - last_frame_sample;
-//logger.log(Level.TRACE, "del %d, thi %d, las %d lasj %d%n", delta, this_frame_sample, last_frame_sample, last_jump);
+//logger.log(Level.TRACE, "del %d, thi %d, las %d lasj %d".formatted(delta, this_frame_sample, last_frame_sample, last_jump));
                     if (last_frame_sample > 0 && last_jump > 0 && delta != 0) {
                         this_jump = (int) (last_jump * (this_frame_sample - target_sample) / delta);
                         if (this_jump < 0)
