@@ -39,7 +39,7 @@ public class FlacFileFormatType extends AudioFileFormat.Type {
      * @param name      the name of the Flac File Format.
      * @param extension the file extension for this Flac File Format.
      */
-    public FlacFileFormatType(String name, String extension) {
+    private FlacFileFormatType(String name, String extension) {
         super(name, extension);
     }
 }

@@ -153,7 +153,7 @@ public class SeekTablePlayer implements PCMProcessor, FrameListener {
      *
      * @param args Command line arguments
      */
-    public static void main(String[] args) {
+    static void main(String[] args) {
         String flacFile = args[0];
         int fromSeekPoint = Integer.parseInt(args[1]);
         int toSeekPoint = Integer.parseInt(args[2]);

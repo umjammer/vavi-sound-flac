@@ -134,7 +134,7 @@ public class Player implements PCMProcessor {
      *
      * @param args Command line arguments
      */
-    public static void main(String[] args) {
+    static void main(String[] args) {
         try {
             Player decoder = new Player();
 

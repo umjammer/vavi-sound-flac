@@ -48,7 +48,7 @@ public class SndPlayer {
      *
      * @param args Command line parameters
      */
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // Check for given sound file names.
         if (args.length < 1) {
             System.out.println("SndPlayer usage:");
