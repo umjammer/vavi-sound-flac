@@ -1,7 +1,7 @@
 [![Release](https://jitpack.io/v/umjammer/vavi-sound-flac.svg)](https://jitpack.io/#umjammer/vavi-sound-flac)
 [![Java CI](https://github.com/umjammer/vavi-sound-flac/actions/workflows/maven.yml/badge.svg)](https://github.com/umjammer/vavi-sound-flac/actions/workflows/maven.yml)
 [![CodeQL](https://github.com/umjammer/vavi-sound-flac/actions/workflows/codeql.yml/badge.svg)](https://github.com/umjammer/vavi-sound-flac/actions/workflows/codeql.yml)
-![Java](https://img.shields.io/badge/Java-17-b07219)
+![Java](https://img.shields.io/badge/Java-25-b07219)
 [![Parent](https://img.shields.io/badge/Parent-vavi--sound--sandbox-pink)](https://github.com/umjammer/vavi-sound-sandbox)
 
 # vavi-sound-flac
@@ -15,6 +15,8 @@ Pure Java FLAC decoder (Java Sound SPI) powered by [JustFlac](https://jitpack.io
  * [maven](https://jitpack.io/#umjammer/vavi-sound-flac)
 
 ## References
+
+ * https://sourceforge.net/projects/javaflacencoder/
 
 ## Usage
 

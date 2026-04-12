@@ -50,7 +50,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.12.1</version>
         <configuration>
-          <release>17</release>
+          <release>25</release>
         </configuration>
       </plugin>
       <plugin>
@@ -81,7 +81,7 @@
       <dependency>
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
-        <version>5.10.3</version>
+        <version>6.0.3</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -108,7 +108,7 @@
     <dependency>
       <groupId>com.github.umjammer</groupId> <!-- vavi / com.github.umjammer -->
       <artifactId>vavi-sound</artifactId>
-      <version>1.0.19</version>
+      <version>1.0.24</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
