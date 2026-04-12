@@ -140,7 +140,7 @@ logger.log(Level.DEBUG, "FLAC file reader: no stream info found");
 
             format = new FlacAudioFormat(streamInfo);
         } catch (IOException ioe) {
-            if (ioe.getMessage().equals("Could not find Stream Sync")) {
+            if ("Could not find Stream Sync".equals(ioe.getMessage())) {
 logger.log(Level.DEBUG, "FLAC file reader: not a FLAC stream");
 logger.log(Level.TRACE, ioe.getMessage(), ioe);
                 throw (UnsupportedAudioFileException) new UnsupportedAudioFileException(ioe.getMessage()).initCause(ioe);
