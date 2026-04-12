@@ -96,7 +96,7 @@ public class Decoder implements PCMProcessor {
      *
      * @param args Command line arguments
      */
-    public static void main(String[] args) {
+    static void main(String[] args) {
         try {
             Decoder decoder = new Decoder();
             decoder.decode(args[0], args[1]);

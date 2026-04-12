@@ -30,7 +30,7 @@ import org.kc7bfi.jflac.metadata.Metadata;
 
 
 /**
- * Analyser reads all metadata and frame blocks in a FLAC file and outputs a text
+ * Analyzer reads all metadata and frame blocks in a FLAC file and outputs a text
  * representation of them.
  *
  * @author kc7bfi
@@ -93,7 +93,7 @@ public class Analyser implements FrameListener {
      *
      * @param args Command arguments
      */
-    public static void main(String[] args) {
+    static void main(String[] args) {
         try {
             Analyser analyser = new Analyser();
             analyser.analyse(args[0]);

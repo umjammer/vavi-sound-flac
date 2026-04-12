@@ -226,7 +226,7 @@ public class FlacPacker extends JFrame {
      *
      * @param args Command line arguments
      */
-    public static void main(String[] args) {
+    static void main(String[] args) {
         FlacPacker app = new FlacPacker("FLAC Album Maker");
         app.setVisible(true);
     }

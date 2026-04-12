@@ -117,7 +117,7 @@ public class Tester implements FrameListener {
      *
      * @param args Command arguments
      */
-    public static void main(String[] args) {
+    static void main(String[] args) {
         try {
             Tester tester = new Tester();
             System.out.println("FLAX Tester for " + args[0]);
